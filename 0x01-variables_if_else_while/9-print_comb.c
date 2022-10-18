@@ -1,17 +1,17 @@
 #include <stdio.h>
-/*
- * main -prints all possible combinations of single-digit numbers
- *
+
+/**
+ * main - prints all combinations of sing NUM
  * Return: 0
-**/
+ */
 int main(void)
 {
-	int b;
+	int n;
 
-	for  (b = 48; b < 58; b++)
+	for (n = 48; n < 58; n++)
 	{
 
-		putchar(b);
+		putchar(n);
 		if (b != 57)
 		{
 			putchar(',');
