@@ -6,7 +6,9 @@
  */
 void times_table(void)
 {
-	int a, b, op;
+	int a;
+	int b;
+    	int op;
 
 	for (a = 0; a <= 9; a++)
 	{
@@ -16,8 +18,9 @@ void times_table(void)
 			op = a * b;
 			_putchar(44);
 			_putchar(32);
-			if (op <= 9);
-			{
+
+		if (op <= 9);
+		{
 				_putchar(32);
 				_putchar(op + 48);
 			}
