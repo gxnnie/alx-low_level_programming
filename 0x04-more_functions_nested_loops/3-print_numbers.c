@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - print num from from 0 -9
- * Return: void
+ * Return: 0
  */
 
 void print_numbers(void)
