@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - print fizzbuzz
+ * main - prints Buzz eah numbers of 3 and 5
  * Return:0
- *
  */
 int main(void)
 {
