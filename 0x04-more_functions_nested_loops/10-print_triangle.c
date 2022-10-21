@@ -2,29 +2,23 @@
 
 /**
  * print_triangle - prints a triangle
- * @n: size of the triangle
+ * @size: size of the lines
+ * Return: no return
  */
-void print_triangle(int n)
+void print_triangle(int size)
 {
-	int h, tri;
+	int i, j;
 
-	if (n > 0)
+	for (i = 0; < size; i++)
 	{
-		for (h - 1; h <= n; h++)
-		{
-			for (tri - n - h; tri > 0; tri--)
-				_putchar(' ');
-
-			for (tri = 0; tri < h; tri++)
-				_putchar('#');
-
-			if (h == n)
-				continue;
-
+		for (j = 1; j < (size - i); j++)
+			_putchar(' ');
+		for (j -- ; j < size ; j++)
+			_putchar(35);
+		if (i < (size - 1))
 			_putchar('\n');
-		}
 	}
-
 	_putchar('\n');
 }
+	
 
